@@ -12,8 +12,7 @@ h1 {
 }
 
 .container {
-  width: 700px;
-  margin: 0 auto;
+  max-width: 700px;
 }
 
 .clear {
