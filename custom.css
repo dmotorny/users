@@ -1,0 +1,144 @@
+input, img, button {
+  outline: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 150%;
+  margin: 15px 0px 10px 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+#new_user {
+  margin: 10px 5px;
+}
+
+#new_user_form input[type="radio"] {
+  width: 25px;
+  float: left;
+}
+
+#form_radio span {
+  display: inline-block;
+}
+
+.form_button div {
+  float: right;
+  width: 72%;
+}
+
+#new_user_form {
+  padding: 20px 20px;  
+}
+
+#new_user_form label {
+  width: 27%;
+  margin: 7px 0px 0px 0px;
+  font-size: 105%;
+  padding-right: 10px;
+}
+
+#new_user_form input {
+  float: right;
+  width: 72%;
+}
+
+#new_user_form input[type="file"] {
+  display: inline-block;
+}
+
+.destroy {
+  float: right;
+  padding: 0px;
+  border: none;
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  background: #dce5ea;
+  margin: 8px 4px;
+}
+
+.glyphicon {
+  color: #a2c9e0;
+  font-size: 130%;
+  padding: 8px 8px;
+  position: relative;
+  top: 0px;
+  left: -1px;
+  border-radius: 25px;
+}
+
+.glyphicon:hover {
+  color: #f98836;
+}
+
+.user_data_block {
+  margin-top: 10px;
+}
+
+#form_radio {
+  width: 72%;
+  float: right;
+  margin-bottom: 7px;
+  margin-top: 8px;
+  padding-left: 8px; 
+}
+
+#form_radio input:hover, #form_radio label:hover {
+  cursor: pointer;
+}
+
+
+#form_radio div:first-child {
+  float: left;
+  margin-right: 10px;
+}
+
+.one_user_card {
+  background: #eaf1f5;
+  padding: 20px 20px;
+  margin-bottom: 15px;  
+  border-radius: 5px;
+}
+
+.one_user_card img {
+  border-radius: 25px;
+  float: left;
+}
+
+h3 {
+  padding-left: 15px;
+  height: 50px;
+  vertical-align: middle;
+  display: table-cell;
+  line-height: 26px;
+}
+
+.left_value {
+  width: 110px;
+  display: inline-block;
+  font-weight: 600;  
+}
+
+.right_value {
+  
+}
+
+#form_radio label {
+  margin-top: 0px;
+}
+
+.view div {
+  background: red;
+}
+
+.
+
+
+
