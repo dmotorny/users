@@ -39,7 +39,7 @@ var usersList = `<div class="user_card_form">
         <img src="https://randomuser.me/api/portraits/thumb/men/57.jpg">
         <h3>{{user.fullName}}</h3>
         <div class="user_data_block">
-          <p><span class="left_value">Birthdate</span><span class="right_value">{{user.birthdate}}</span></p>
+          <p><span class="left_value">Birthdate1</span><span class="right_value">{{user.birthdate}}</span></p>
           <p><span class="left_value">Gender</span><span class="right_value">{{user.gender}}</span></p>
           <p><span class="left_value">Address</span><span class="right_value">{{user.address}}</span></p>
           <p><span class="left_value">E-mail</span><span class="right_value"><a hrseref="mailto:{{user.email}}">{{user.email}}</a></span></p>
