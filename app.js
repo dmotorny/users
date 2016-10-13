@@ -53,15 +53,15 @@ var usersList = `<div class="user_card_form">
     angular.module('userList', [])
     .service('Logic', function($http) {
       this.getAll = () => {
-        return $http.get('http://test-api.javascript.ru/v1/dmotorny1/users')
+        return $http.get('//test-api.javascript.ru/v1/dmotorny1/users')
           .then(response => response.data)
       }
       this.add = (user) => {  
-        return $http.post('http://test-api.javascript.ru/v1/dmotorny1/users', user)
+        return $http.post('//test-api.javascript.ru/v1/dmotorny1/users', user)
           .then(response => response.data)
       }
       this.remove = (user) => {
-        return $http.delete('http://test-api.javascript.ru/v1/dmotorny1/users/' + user._id);
+        return $http.delete('//test-api.javascript.ru/v1/dmotorny1/users/' + user._id);
       }
     })
     .component('card', {
