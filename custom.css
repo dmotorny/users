@@ -11,6 +11,11 @@ h1 {
   margin: 15px 0px 10px 0px;
 }
 
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 .clear {
   clear: both;
 }
